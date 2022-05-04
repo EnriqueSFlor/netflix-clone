@@ -14,21 +14,21 @@ export default {
         slug: "originals",
         title: "Originais do Netflix",
         items: await basicFetch(
-          `/discover/tv?with_network=213&language=pt-BR&api_key${API_KEY}`
+          `/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`
         ),
       },
       {
         slug: "trending",
         title: "Recomendados para Você",
         items: await basicFetch(
-          `/trending/all/week?language=pt-BR&api_key${API_KEY}`
+          `/trending/all/week?language=pt-BR&api_key=${API_KEY}`
         ),
       },
       {
         slug: "toprated",
         title: "Em alta",
         items: await basicFetch(
-          `/movie/top_rated?language=pt-BR&api_key${API_KEY}`
+          `/movie/top_rated?language=pt-BR&api_key=${API_KEY}`
         ),
       },
       {
