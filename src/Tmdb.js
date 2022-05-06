@@ -85,7 +85,6 @@ export default {
           break;
         default:
           info = null;
-          break;
       }
     }
 
