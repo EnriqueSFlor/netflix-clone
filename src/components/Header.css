@@ -8,11 +8,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 30px;
+  background: transparent;
+  transition: all ease 0.5s;
 }
 
-.header--log {
+header.black {
+  background-color: #141414;
+}
+
+.header--logo {
   height: 30px;
 }
-.header--log img {
+.header--logo img {
   height: 100%;
+}
+
+.header--user {
+  height: 40px;
+}
+
+.header--user img {
+  height: 100%;
+  border-radius: 3px;
 }

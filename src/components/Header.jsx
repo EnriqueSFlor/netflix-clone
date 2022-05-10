@@ -1,21 +1,21 @@
 import "./Header.css";
 
-export default () => {
+export default ({ black }) => {
   return (
-    <header>
-      <div className="header--log">
+    <header className={black ? "black" : ""}>
+      <div className="header--logo">
         <a href="/">
           <img
-            src="https://www.dafont.com/forum/attach/orig/7/3/736247.png?1"
-            alt=""
-          ></img>
+            src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-1-1.png"
+            alt="netflix"
+          />
         </a>
       </div>
       <div className="header--user">
         <a href="/">
           <img
-            src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
-            alt=""
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+            alt="Usuário"
           />
         </a>
       </div>
