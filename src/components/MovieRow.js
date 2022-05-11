@@ -1,9 +1,13 @@
 import "./MovieRow.css";
+import React from "react";
+import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 
 export default ({ title, items }) => {
   return (
     <div className="movieRow">
       <h2>{title}</h2>
+      <div className="movieRow-left"></div>
+      <div className="movieRow--right"></div>
       <div className="movieRow--listarea">
         <div className="movieRow--list">
           {items.results.length > 0 &&
